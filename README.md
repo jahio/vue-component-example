@@ -1,24 +1,14 @@
 # component-example
 
-## Project setup
-```
-npm install
-```
+This is an example project to show, very simply, how to use [Vue.js](https://vuejs.org) components.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+![screenshot](./screen.png)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Setup
 
-### Lints and fixes files
 ```
-npm run lint
+$ git clone ...
+$ cd <project location>
+$ npm install
+$ npm run serve
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
