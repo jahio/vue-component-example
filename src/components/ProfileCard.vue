@@ -11,6 +11,7 @@
 export default {
   name: 'ProfileCard',
   props: {
+    id: Number,
     profileImage: String,
     name: String,
     location: String,
@@ -18,7 +19,7 @@ export default {
   },
   methods: {
     gotClicked: function() {
-      console.log("You clicked on " + this.$props.name + "!")
+      console.log("You clicked on " + (this.$store.getters['profiles/getProfile'](this.$props.id)).name + "!")
     }
   }
 }
