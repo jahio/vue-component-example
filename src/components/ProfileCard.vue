@@ -31,6 +31,14 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
 .profile-card {
   margin-left: 25%;
   padding: 50px;
