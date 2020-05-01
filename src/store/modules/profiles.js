@@ -1,9 +1,9 @@
 // initial state
 const state = {
   profiles: [
-    { id: 2, name: "Obi-Wan Kenobi", location: "Tatooine", occupation: "Jedi Knight, Mentor to Darth Vader", profileImage: "http://localhost:8080/obi-wan.jpg" },
-    { id: 3, name: "Yoda", location: "Dagobah", occupation: "Jedi Master, Mentor to Luke Skywalker", profileImage: "http://localhost:8080/yoda.jpg" },
-    { id: 1, name: "J. Austin Hughey", location: "Texas, USA (Earth)", occupation: "Dark Lord of the Sith", profileImage: "http://localhost:8080/jah.jpg" }
+    { id: 1, name: "Theodore Roosevelt", location: "United States of America", occupation: "26th President of the United States", profileImage: "http://localhost:8080/roosevelt.jpg" },
+    { id: 2, name: "Mahatma Gandhi", location: "India", occupation: "'Fought' for Indian Independence via Non-Violent Means", profileImage: "http://localhost:8080/gandhi.jpg" },
+    { id: 3, name: "Albert Einstein", location: "United States, Germany", occupation: "Theoretical Physicist", profileImage: "http://localhost:8080/einstein.jpg" }
   ]
 }
 

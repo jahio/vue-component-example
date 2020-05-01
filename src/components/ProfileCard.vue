@@ -1,6 +1,6 @@
 <template>
   <div class="profile-card" v-on:click="gotClicked">
-    <img :src="profileImage" class="rounded-circle float-left" />
+    <img :src="profileImage" class="rounded-circle float-left" width="200" />
     <h1>{{ name }}</h1>
     <h3>{{ location }}</h3>
     <p>{{ occupation }}</p>
