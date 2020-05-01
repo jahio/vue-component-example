@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>Here's Some Random People</h1>
+    <h1>Historical People</h1>
     <ProfileCard
       v-for="profile in profiles"
       :id="profile.id"
